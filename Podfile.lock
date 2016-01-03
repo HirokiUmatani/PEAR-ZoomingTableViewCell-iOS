@@ -1,0 +1,10 @@
+PODS:
+  - PEAR-ZoomingView-iOS (1.0.0)
+
+DEPENDENCIES:
+  - PEAR-ZoomingView-iOS
+
+SPEC CHECKSUMS:
+  PEAR-ZoomingView-iOS: b23219dcd3961ed0c4a6e279be361e31844e438c
+
+COCOAPODS: 0.39.0

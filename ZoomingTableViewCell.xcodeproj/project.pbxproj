@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E14B869D303D33AAE5E9C581 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AAADFA5D9732B5306C71C6 /* libPods.a */; };
+		F44869971C393A3900C02029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F44869961C393A3900C02029 /* main.m */; };
+		F448699A1C393A3900C02029 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F44869991C393A3900C02029 /* AppDelegate.m */; };
+		F448699D1C393A3900C02029 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F448699C1C393A3900C02029 /* ViewController.m */; };
+		F44869A01C393A3900C02029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F448699E1C393A3900C02029 /* Main.storyboard */; };
+		F44869A21C393A3900C02029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44869A11C393A3900C02029 /* Assets.xcassets */; };
+		F44869A51C393A3900C02029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44869A31C393A3900C02029 /* LaunchScreen.storyboard */; };
+		F44869B01C393BDB00C02029 /* ZoomingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F44869AE1C393BDB00C02029 /* ZoomingTableViewCell.m */; };
+		F44869B11C393BDB00C02029 /* ZoomingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F44869AF1C393BDB00C02029 /* ZoomingTableViewCell.xib */; };
+		F44869B41C394EFF00C02029 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F44869B31C394EFF00C02029 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14AAADFA5D9732B5306C71C6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		70064565FE9C5140461F30CE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DDEDE47B22F377D4FE3FB6B3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F44869921C393A3900C02029 /* ZoomingTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomingTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44869961C393A3900C02029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F44869981C393A3900C02029 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F44869991C393A3900C02029 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F448699B1C393A3900C02029 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F448699C1C393A3900C02029 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F448699F1C393A3900C02029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F44869A11C393A3900C02029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F44869A41C393A3900C02029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F44869A61C393A3900C02029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44869AD1C393BDB00C02029 /* ZoomingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomingTableViewCell.h; sourceTree = "<group>"; };
+		F44869AE1C393BDB00C02029 /* ZoomingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomingTableViewCell.m; sourceTree = "<group>"; };
+		F44869AF1C393BDB00C02029 /* ZoomingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoomingTableViewCell.xib; sourceTree = "<group>"; };
+		F44869B31C394EFF00C02029 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F448698F1C393A3900C02029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14B869D303D33AAE5E9C581 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4525CD9CA4667A7DF98291C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70064565FE9C5140461F30CE /* Pods.debug.xcconfig */,
+				DDEDE47B22F377D4FE3FB6B3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B799EEB03D70323C9E3A15E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14AAADFA5D9732B5306C71C6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F44869891C393A3900C02029 = {
+			isa = PBXGroup;
+			children = (
+				F44869AC1C393B8E00C02029 /* PEAR-ZoomingTableViewCelll-iOS */,
+				F44869941C393A3900C02029 /* ZoomingTableViewCelll */,
+				F44869931C393A3900C02029 /* Products */,
+				4525CD9CA4667A7DF98291C6 /* Pods */,
+				5B799EEB03D70323C9E3A15E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F44869931C393A3900C02029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44869921C393A3900C02029 /* ZoomingTableViewCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44869941C393A3900C02029 /* ZoomingTableViewCelll */ = {
+			isa = PBXGroup;
+			children = (
+				F44869981C393A3900C02029 /* AppDelegate.h */,
+				F44869991C393A3900C02029 /* AppDelegate.m */,
+				F448699B1C393A3900C02029 /* ViewController.h */,
+				F448699C1C393A3900C02029 /* ViewController.m */,
+				F448699E1C393A3900C02029 /* Main.storyboard */,
+				F44869A11C393A3900C02029 /* Assets.xcassets */,
+				F44869A31C393A3900C02029 /* LaunchScreen.storyboard */,
+				F44869A61C393A3900C02029 /* Info.plist */,
+				F44869951C393A3900C02029 /* Supporting Files */,
+				F44869B31C394EFF00C02029 /* Podfile */,
+			);
+			name = ZoomingTableViewCelll;
+			path = ZoomingTableViewCell;
+			sourceTree = "<group>";
+		};
+		F44869951C393A3900C02029 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F44869961C393A3900C02029 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F44869AC1C393B8E00C02029 /* PEAR-ZoomingTableViewCelll-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F44869B21C393C3400C02029 /* resources */,
+				F44869AD1C393BDB00C02029 /* ZoomingTableViewCell.h */,
+				F44869AE1C393BDB00C02029 /* ZoomingTableViewCell.m */,
+			);
+			name = "PEAR-ZoomingTableViewCelll-iOS";
+			path = "PEAR-ZoomingTableViewCell-iOS";
+			sourceTree = "<group>";
+		};
+		F44869B21C393C3400C02029 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				F44869AF1C393BDB00C02029 /* ZoomingTableViewCell.xib */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44869911C393A3900C02029 /* ZoomingTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44869A91C393A3900C02029 /* Build configuration list for PBXNativeTarget "ZoomingTableViewCell" */;
+			buildPhases = (
+				C4AC7DC10AA42918DD53984A /* Check Pods Manifest.lock */,
+				F448698E1C393A3900C02029 /* Sources */,
+				F448698F1C393A3900C02029 /* Frameworks */,
+				F44869901C393A3900C02029 /* Resources */,
+				63585C752E3AB5253134AF95 /* Embed Pods Frameworks */,
+				D2E38F6A840C09F8DB6C08C1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomingTableViewCell;
+			productName = ZoomingTableViewCelll;
+			productReference = F44869921C393A3900C02029 /* ZoomingTableViewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F448698A1C393A3900C02029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hirokiumatani;
+				TargetAttributes = {
+					F44869911C393A3900C02029 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = XE4E546GZY;
+					};
+				};
+			};
+			buildConfigurationList = F448698D1C393A3900C02029 /* Build configuration list for PBXProject "ZoomingTableViewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F44869891C393A3900C02029;
+			productRefGroup = F44869931C393A3900C02029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44869911C393A3900C02029 /* ZoomingTableViewCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44869901C393A3900C02029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44869A51C393A3900C02029 /* LaunchScreen.storyboard in Resources */,
+				F44869A21C393A3900C02029 /* Assets.xcassets in Resources */,
+				F44869B41C394EFF00C02029 /* Podfile in Resources */,
+				F44869A01C393A3900C02029 /* Main.storyboard in Resources */,
+				F44869B11C393BDB00C02029 /* ZoomingTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63585C752E3AB5253134AF95 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4AC7DC10AA42918DD53984A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2E38F6A840C09F8DB6C08C1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F448698E1C393A3900C02029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F448699D1C393A3900C02029 /* ViewController.m in Sources */,
+				F448699A1C393A3900C02029 /* AppDelegate.m in Sources */,
+				F44869971C393A3900C02029 /* main.m in Sources */,
+				F44869B01C393BDB00C02029 /* ZoomingTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F448699E1C393A3900C02029 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F448699F1C393A3900C02029 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F44869A31C393A3900C02029 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44869A41C393A3900C02029 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F44869A71C393A3900C02029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F44869A81C393A3900C02029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F44869AA1C393A3900C02029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70064565FE9C5140461F30CE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/ZoomingTableViewCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kari.jp.co.hirokiumatani.ZoomingTableViewCelll;
+				PRODUCT_NAME = ZoomingTableViewCell;
+			};
+			name = Debug;
+		};
+		F44869AB1C393A3900C02029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDEDE47B22F377D4FE3FB6B3 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/ZoomingTableViewCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kari.jp.co.hirokiumatani.ZoomingTableViewCelll;
+				PRODUCT_NAME = ZoomingTableViewCell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F448698D1C393A3900C02029 /* Build configuration list for PBXProject "ZoomingTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44869A71C393A3900C02029 /* Debug */,
+				F44869A81C393A3900C02029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44869A91C393A3900C02029 /* Build configuration list for PBXNativeTarget "ZoomingTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44869AA1C393A3900C02029 /* Debug */,
+				F44869AB1C393A3900C02029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F448698A1C393A3900C02029 /* Project object */;
+}
